@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            text-align: left
+        }
+        form{
+            position: relative;
+            border: 1px solid;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 16px;
+            margin-top: 30px;
+                
+        }
+        
+        input{
+        margin-bottom: 8px;
+        }
+        
+        fieldset{
+            border: 1px dotted;
+            border-radius: 10px;
+            background: lightgrey;
+        }
+        
+    </style>
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <!--<input type="button" value ="Тыцни меня"/>-->
+
+
+        <!--
+  <input type="checkbox" id="like html"/>
+   <label for="like html">Тебе нравиться HTML???</label>
+-->
+        <fieldset>
+            <legend>Группа 1</legend>
+            <label><input type="checkbox" checked name="I like HTML" />Тебе нравиться HTML???</label>
+            <br>
+            <label>
+                <input type="text" placeholder="как тебя зовут?">
+            </label>
+            <br>
+            <label>
+                One<input checked type="radio" name="dummy" value="One">
+            </label>
+            <label>
+                Two<input type="radio" name="dummy" value="Two">
+            </label>
+            <label>
+                Three<input type="radio" name="dummy" value="Tree">
+            </label>
+            <br />
+            <input type="file" name="image" multiple />
+        </fieldset>
+        <br>
+        <input type="range" placeholder="price" name="price" max="100" min="0">
+        <br>
+        <input type="number" name="num" min="0" max="100" step="0.1">
+        <br>
+        <input type="tel" name="telephone" disabled readonly value="+380(99)123-45-67">
+        <br>
+        <input type="email" name="email" placeholder="email" />
+        <br>
+        <input type="reset">
+        <br>
+        <input type="submit" value="Послать подальше" />
+<br>
+        <textarea rows="5" cols="30" name="comment">Ваш комментарий</textarea>
+        <br>
+        <select name="selection">
+           <optgroup label="first group">
+            <option>one</option>
+            <option>one</option>
+            </optgroup>
+            
+            <option>one</option>
+            <option>one</option>   
+        </select>
+        <input type="text" name="city" list="cities" >
+        <datalist id="cities">
+            <option>Днепр</option>
+            <option>Киев</option>
+            <option>Донецк</option>
+            <option>Бердянск</option>
+        </datalist>
+
+
+    </form>
+
+</body>
+</html>

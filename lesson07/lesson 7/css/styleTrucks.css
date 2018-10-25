@@ -1,0 +1,42 @@
+div {
+    position: relative;
+    border: 1px;
+
+}
+
+#first {
+    position:absolute;
+    border: 2px solid;
+    background: #ff6634;
+    top: 20px;
+    left: 500px;
+    height: 200px;
+    width: 900px;
+
+}
+#parent{
+    position: absolute;
+    border: 2px solid;
+    background: #aeb5bd;
+    top: 230px;
+    left: 500px;
+    height: 700px;
+    width: 900px;
+}
+#child1{
+    position: relative;
+    border: 2px solid;
+    background: #323232;
+    top: 10px;
+    left: 15px;
+    height: 50px;
+    width: 870px;
+}
+#child2{
+    position: relative;
+    border: 2px solid;
+    background: #323232;
+    top: 20px;
+    left: 15px;
+    height: 45px;
+    width: 210px;

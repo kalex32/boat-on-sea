@@ -1,0 +1,16 @@
+
+div{
+    position: relative;
+    border: 1px solid;
+}
+
+
+#second{
+    background: lightblue;
+    top: 100px;
+    left: 50px;
+}
+
+#third{
+    top: -10px;
+}
